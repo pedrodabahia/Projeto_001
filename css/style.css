@@ -1,0 +1,260 @@
+
+*{
+	margin: 0;
+	padding:0;
+	font-family: "font1";
+	
+}
+body{
+overflow-x: hidden;
+}
+@font-face{
+	src: url(../fonts/Oswald-VariableFont_wght.ttf);
+	font-family: "font1";
+	font-weight: 400;
+}
+.header .center{
+	
+	height: 75px;
+	width:12%;
+	height:15%;
+	margin: auto auto;
+}
+.header .center img{
+	margin: 20px auto;
+	float: left;
+	height:21px;
+	width:100%;
+}
+.header{
+	width:100%;
+	background-color:#24244c;
+}
+
+
+
+.form{
+	background-image:url(../images/header_bg.png);
+	width: 100%;
+	height:632px;
+	background-color: red;
+	background-position:center;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.center{
+	height: 100%;
+	display: flex;
+}
+
+.formulario{
+	display: block;
+	background-color: rgb(255, 255, 255);
+	width:30%;
+	height:calc(100% + 30px);
+	border: 10px solid  #979797;
+	position: relative;
+	padding: 10px;	
+	top: -2%;
+	right: 2%;
+	margin-left: 6%;
+	color: #a5a5a5;
+}
+
+
+
+.lista{
+	display:block;
+	margin: 5% 10%;
+	width: 40%;
+	height:40%;
+	background-color: rgba(35,35,67,0.8);
+}
+
+.lista li{
+	padding-top: 2%;
+	padding-left: 2%;
+	list-style: none;
+	text-align:center;
+	line-height: 200%;
+}
+
+.lista .center{
+	text-align: center;
+}
+.lista ul{
+	width: 95%;
+	height: 90%;
+	display: inline-block;
+	font-size: 100%;
+	
+}
+
+div .input,form p,.lista{
+	margin-top: 10%;
+	font-size: 100%;
+	color:#c0c0c0;
+}
+
+input{
+	width: 95%;
+	padding:20px 5px;
+	border:1px solid #c4c4c4;
+	font-size:20px;
+
+}
+
+input[type=submit]{
+	margin: 5% 17%;
+	width:65%;
+	height: 20%;
+	background-color: #3d3f78;
+	border: 0;
+	font-size: 200%;
+	color:#ffffff;
+}
+input[type=text]:valid,input[type=email]:valid {
+
+background-color:rgba(61 ,63 ,120, 0.6)}
+.section-for-text{
+	height: 400px;
+	background-color: #cccccc;
+	color:#6d6d6d;
+	
+	
+}
+
+.section-for-text .conteudo{
+height:100%;
+}
+
+.section-for-text p{
+	width: 100%;
+	text-align: justify;
+	font-size: 130%;
+
+
+}
+
+.section-for-text h2{
+	font-size: 40px;
+	
+	
+}
+.section-for-text .conteudo{
+	display: inline-block;
+	text-align: center;
+	width: 60%;
+	margin: auto 25%;
+
+}
+.arrow{
+	background-image: url(../images/arrow.png);
+	width: 4.8%;
+	background-size:100% 100%;
+	height: 4.7vw;
+	position: relative;
+	left:50%;
+	top:-32px;
+	margin: 0px;
+	overflow: hidden;
+}
+
+
+.section-for-icones{
+	text-align: center;
+	height: 700px;
+	width: 100%;
+}
+
+.icones{
+	width: 30%;
+	margin: 0 1.5%;
+	text-align: center;
+	display: inline-block;
+	margin-top: 10%;
+	
+}
+.icones img,.icones h3{	
+	margin-bottom: 5%;
+	color: #5a5a5a;
+	
+}
+
+.section-for-icones p{
+	font-size: 100%;
+	color:#5a5a5a;
+}
+
+.section-for-icones h2{ 
+	margin-top: 2%;
+	font-size: 30px;
+	color:rgb(35, 35, 67)
+}
+
+footer{
+	text-align: center;
+	height: 92px;
+}
+footer p{
+	margin-top: 10px;
+	font-size: 20px;
+	color: #5a5a5a;
+}
+
+@media screen and (max-width:1018px){
+
+
+.center{
+	display: inline-block; 
+	width: 100%;
+}
+
+.center div{
+	margin: auto auto;
+}
+
+
+form .input{
+	margin-top:14px;
+}
+
+.form{
+	height:900px;
+}
+
+.formulario{
+	height:600px;
+	width:400px;
+	position: static;
+}
+
+.center .lista{
+	height:200px;
+	width:450px;
+    margin:2% auto;
+	font-size:80%;
+	
+}
+
+.header .center{
+margin: 0 39%;
+width:22%;
+}
+
+.section-for-text .conteudo{
+
+	width:80%;
+	margin: 5% 10%;
+	font-size:1.6vw;
+
+}
+.icones{
+	width:80%;
+	margin: 0 10%; 
+	text-align: center;
+	float: left;
+	margin-top: 10%;
+
+}
