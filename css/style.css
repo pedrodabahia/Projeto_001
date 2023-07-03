@@ -52,7 +52,7 @@ overflow-x: hidden;
 	display: block;
 	background-color: rgb(255, 255, 255);
 	width:30%;
-	height:calc(100% + 30px);
+	height:700px;
 	border: 10px solid  #979797;
 	position: relative;
 	padding: 10px;	
