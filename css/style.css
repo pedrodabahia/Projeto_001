@@ -15,18 +15,19 @@ overflow-x: hidden;
 }
 .header .center{
 	
-	height: 75px;
+	height: 85px;
 	width:12%;
 	height:15%;
 	margin: auto auto;
 }
 .header .center img{
-	margin: 20px auto;
+	margin: 30px auto;
 	float: left;
 	height:21px;
 	width:100%;
 }
 .header{
+	height:85px;
 	width:100%;
 	background-color:#24244c;
 }
