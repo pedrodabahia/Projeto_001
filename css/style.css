@@ -38,7 +38,7 @@ overflow-x: hidden;
 	background-image:url(../images/header_bg.png);
 	width: 100%;
 	height:632px;
-	background-color: red;
+	background-color: #24244c;
 	background-position:center;
 	background-size: 100% 100%;
 	position: relative;
@@ -52,7 +52,7 @@ overflow-x: hidden;
 .formulario{
 	display: block;
 	background-color: rgb(255, 255, 255);
-	width:30%;
+	width:60%;
 	height:650px;
 	border: 10px solid  #979797;
 	position: relative;
@@ -204,7 +204,7 @@ footer p{
 	color: #5a5a5a;
 }
 
-@media screen and (max-width:1018px){
+@media screen and (max-width:1080px){
 
 
 .center{
@@ -222,12 +222,12 @@ form .input{
 }
 
 .form{
-	height:900px;
+	height:120vh;
 }
 
 .formulario{
 	height:600px;
-	width:400px;
+	width:60%;
 	position: static;
 }
 
