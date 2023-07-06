@@ -1,267 +1,262 @@
+
 *{
-    margin:0;
-    padding:0;
+	margin: 0;
+	padding:0;
+	font-family: "font1";
+	
 }
-@font-face {
-    font-family: "font-base";
-    src: url("../fonts/Questrial/Questrial-Regular.ttf");
+body{
+overflow-x: hidden;
 }
-body,html{
-    height:100%;
-    font-family: "font-base";
+@font-face{
+	src: url(../fonts/Oswald-VariableFont_wght.ttf);
+	font-family: "font1";
+	font-weight: 400;
+}
+.header .center{
+	
+	height: 85px;
+	width:12%;
+	height:15%;
+	margin: auto auto;
+}
+.header .center img{
+	margin: 30px auto;
+	float: left;
+	height:21px;
+	width:100%;
+}
+.header{
+	width:100%;
+	height: 85px;
+	background-color:#24244c;
 }
 
 
 
-header{
-    background-color: rgb(220,220,220);
-    height:9%;
+.form{
+	background-image:url(../images/header_bg.png);
+	width: 100%;
+	height:632px;
+	background-color: red;
+	background-position:center;
+	background-size: 100% 100%;
+	position: relative;
 }
 
-nav{
+.center{
+	height: 100%;
+	display: flex;
+}
 
-    height: 100%;
-    width: 100%;
-}
-nav center{
-    height: 100%;
-    width: 100%;
-}
-nav center div{
-    width: 12%;
-    height: 71%;
-    display: inline-block;
-    margin: 0.5% 33%;
-}
-.logo1{
-    margin-left:3%;
-    background-image: url(../img/logo1.png);
-    background-size: 100% 100%;
-    
-}
-.logo2{
-    margin-right:3%;
-    background-image: url(../img/logo2.png);
-    background-size: 100% 100%;
-}
-.banner1{
-    height:87vh;
-    width: 100%;
-}
 .formulario{
-    background-image:url(../img/bg-form.jpg);
-    background-position: center;
-    height:87vh;
-    width: 90%;
-    margin: 0 auto;
-}
-.formulario form{
-    float: right;
-    margin-right:5%;
-    margin-top:1%;
-    border-radius:2%;
-    width:27vw;
-    height:80vh;
-    background-color: rgba(250,250,250,0.6);
-    overflow: hidden;
-    text-align: center;
-}
-.formulario form div{
-    height:12vh;
-    padding-top: 5%;
-    color:rgb(70,70,70);
-    text-align: center;
-}
-.formulario form div input{
-    width:90%;
-    height:6vh;
-    border-radius:0.4rem;
-    border: 1px solid rgb(250,250,250);
-    padding: 1vh;
-    background-color: white;
-    outline-color: rgb(220, 220, 220);
-}
-
-.formulario form div input:valid{
-   background-color: rgb(255, 255, 123);
-}
-
-.formulario form .tituloForm{
-    background-color: rgba(220,220,220,1);
-    height: 12vh;
-    padding-top: 7%;
-    color:rgb(70,70,70);
-}
-.formulario form button{
-    width: 90%;
-    height: 8vh;
-    background-color: #033c50;
-    border: none;
-    margin-top: 3%;
-    margin-bottom: 5%;
-    border-radius: 0.4rem;
-    color: white;
-   
-}
-
-    .formulario form .AVISO{
-        margin-top: 10vh;
-        color:rgb(70,70,70);
-    }
-    .banner1 .arrow{
-        background-image: url(../img/arrow.png);
-        background-position:center;
-        background-size: 100% 100%;
-        height:8%;
-        width: 3.5%;
-        position: relative;
-        left: 46.5%;
-        top: 95%;
-    }
-.amostras{
-    height: 1500px;
-    width: 90%;
-    background-color: rgba(220,220,220,1); 
-    margin: auto auto;
-
-}
-.conteiner{ 
-    width: 100%;
-    list-style: none;
-    text-align: center;
-    height:100%;
-    margin: 0;
-    background-color: #cfe4f3d2;
-}
-
-
-.conteiner .tituloMosaico{
-    width: 100%;
-    height: 10%;
-    padding-top: 2%;
-    font-size: 135%;
-    background-color: rgb(220, 220, 220);
-    text-align: center;
-    display: block;
-}
-.conteiner .tituloMosaico h1,.conteiner .tituloMosaico h3{
-    color:rgb(50,50,50);
-    display: inline-block;
-    width:70%;
-    font-size: 110%;
-    margin: auto auto;
-}
-.conteiner .tituloMosaico h1{
-    font-size: 190%;
+	display: block;
+	background-color: rgb(255, 255, 255);
+	width:30%;
+	height:650px;
+	border: 10px solid  #979797;
+	position: relative;
+	padding: 10px;	
+	top: -2%;
+	right: 2%;
+	margin-left: 6%;
+	color: #a5a5a5;
 }
 
 
 
-.tituloMosaico h1,.tituloMosaico h3{
-    font-weight:100;
-    margin-bottom:-1%;
+.lista{
+	display:block;
+	margin: 5% 10%;
+	width: 40%;
+	height:40%;
+	background-color: rgba(35,35,67,0.8);
 }
 
-   .conteiner div{
-    width: 100%;
-    height: 20.7%;
-    margin-bottom: 1%;
-    overflow: hidden;
-    display: flex;}
-
- div img{
-     height:90vw;
-    object-fit: cover;
-    height: 300px;
-    display: inline-block;
-    width:65%;
-    overflow: clip;
-
-    height:100%;
- }
-.texto{ 
-    display: inline-block;
-    height: 300px;
-    padding: 3%;
-    padding-top: 7%;
-    width: 40%;
-    text-align: center;
-    margin: 0 2.5%;
-    font-size: 150%;
-    
+.lista li{
+	padding-top: 2%;
+	padding-left: 2%;
+	list-style: none;
+	text-align:center;
+	line-height: 200%;
 }
+
+.lista .center{
+	text-align: center;
+}
+.lista ul{
+	width: 95%;
+	height: 90%;
+	display: inline-block;
+	font-size: 100%;
+	
+}
+
+div .input,form p,.lista{
+	margin-top: 8%;
+	font-size: 100%;
+	color:#c0c0c0;
+}
+
+input{
+	width: 95%;
+	padding:20px 5px;
+	border:1px solid #c4c4c4;
+	font-size:20px;
+
+}
+
+input[type=submit]{
+	margin: 5% 17%;
+	width:65%;
+	height: 15%;
+	background-color: #3d3f78;
+	border: 0;
+	font-size: 200%;
+	color:#ffffff;
+}
+input[type=text]:valid,input[type=email]:valid {
+
+background-color:rgba(61 ,63 ,120, 0.6)}
+.section-for-text{
+	height: 400px;
+	background-color: #cccccc;
+	color:#6d6d6d;
+	
+	
+}
+
+.section-for-text .conteudo{
+height:100%;
+}
+
+.section-for-text p{
+	width: 100%;
+	text-align: justify;
+	font-size: 130%;
+
+
+}
+
+.section-for-text h2{
+	font-size: 40px;
+	
+	
+}
+.section-for-text .conteudo{
+	display: inline-block;
+	text-align: center;
+	width: 60%;
+	margin: auto 25%;
+
+}
+.arrow{
+	background-image: url(../images/arrow.png);
+	width: 4.8%;
+	background-size:100% 100%;
+	height: 4.7vw;
+	position: relative;
+	left:50%;
+	top:-32px;
+	margin: 0px;
+	overflow: hidden;
+}
+
+
+.section-for-icones{
+	text-align: center;
+	height: 700px;
+	width: 100%;
+}
+
+.icones{
+	width: 30%;
+	margin: 0 1.5%;
+	text-align: center;
+	display: inline-block;
+	margin-top: 10%;
+	
+}
+.icones img,.icones h3{	
+	margin-bottom: 5%;
+	color: #5a5a5a;
+	
+}
+
+.section-for-icones p{
+	font-size: 100%;
+	color:#5a5a5a;
+}
+
+.section-for-icones h2{ 
+	margin-top: 2%;
+	font-size: 30px;
+	color:rgb(35, 35, 67)
+}
+
 footer{
-    height: 100px;
-    margin: 3% 0;
-    margin-bottom: 0%;
-    width:100%;
-    text-align: center;
-    font-size: 110%;
-    display: inline-block;
+	text-align: center;
+	height: 92px;
+}
+footer p{
+	margin-top: 10px;
+	font-size: 20px;
+	color: #5a5a5a;
 }
 
-.imagem-footer{
-    background-image: url(../img/logo1.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 17%;
+@media screen and (max-width:1018px){
 
-    height: 5vw;
-    margin: auto auto;
 
+.center{
+	display: inline-block; 
+	width: 100%;
 }
 
-@media screen and (max-width:1018px) and (min-width:715px){
-    .formulario form{
-        margin: 0 20%;    
-        width:60%;
-    }
-    .formulario{
-        padding-top: 3%;
-    }
-
-    nav center div{
-        width: 15%;
-        margin: 1% 23%;
-    }
-
-    .formulario form button{
-        margin-bottom: 2%;
-    }
-
-    .banner1 .arrow{
-        height:8%;
-        width: 6.5%;
-    }
+.center div{
+	margin: auto auto;
 }
 
-@media screen and (max-width:714px){
-    
-   
 
-    .formulario form{
-        width: 80vw;
-        height: 70vh;
-        margin: 0  9vw;
-    }
-    .formulario form div{
-        padding: 1vh;
-        height: 10vh;
-    }
-    .formulario{
-        padding-top: 6vh;
-        width: 100%;
-    }
+form .input{
+	margin-top:14px;
+}
 
+.form{
+	height:900px;
+}
 
-    nav center div{
-        width: 20%;
-        margin: 1% 15%;
-    }
+.formulario{
+	height:600px;
+	width:400px;
+	position: static;
+}
 
-    .banner1 .arrow{
-        height:6%;
-        width: 6.5%;
-        top:97%;
-    }
+.center .lista{
+	height:200px;
+	width:450px;
+    margin:2% auto;
+	font-size:80%;
+	
+}
+
+.header .center{
+margin: 0 39%;
+width:22%;
+}
+
+.section-for-text .conteudo{
+
+	width:80%;
+	margin: 5% 10%;
+	font-size:1.6vw;
+
+}
+.icones{
+	width:80%;
+	margin: 0 10%; 
+	text-align: center;
+	float: left;
+	margin-top: 10%;
+
+}
 }
