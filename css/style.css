@@ -54,7 +54,7 @@ overflow-x: hidden;
 	background-color: rgb(255, 255, 255);
 	width:60%;
 	height:650px;
-	border: 10px solid  red;
+	border: 10px solid  rgb(167, 167, 167);
 	position: relative;
 	padding: 10px;	
 	top: -2%;
@@ -100,9 +100,10 @@ div .input,form p,.lista{
 
 input{
 	width: 95%;
-	padding:20px 5px;
+	padding:2% 5px;
 	border:1px solid #c4c4c4;
 	font-size:20px;
+	height: 70%;
 
 }
 
@@ -219,6 +220,7 @@ footer p{
 
 form .input{
 	margin-top:14px;
+	height: 15%;
 }
 
 .form{
@@ -226,7 +228,7 @@ form .input{
 }
 
 .formulario{
-	height:90vh;
+	height:80vh;
 	width:90%;
 	position: static;
 }
