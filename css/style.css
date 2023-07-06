@@ -37,7 +37,7 @@ overflow-x: hidden;
 .form{
 	background-image:url(../images/header_bg.png);
 	width: 100%;
-	height:632px;
+	height:100%;
 	background-color: #24244c;
 	background-position:center;
 	background-size: 100% 100%;
@@ -53,13 +53,13 @@ overflow-x: hidden;
 	display: block;
 	background-color: rgb(255, 255, 255);
 	width:60%;
-	height:650px;
+	height:82vh;
 	border: 10px solid  rgb(167, 167, 167);
 	position: relative;
 	padding: 10px;	
 	top: -2%;
 	right: 2%;
-	margin-left: 6%;
+	margin:0 auto;
 	color: #a5a5a5;
 }
 
@@ -93,24 +93,29 @@ overflow-x: hidden;
 }
 
 div .input,form p,.lista{
-	margin-top: 8%;
+	margin-top: 5vh;
 	font-size: 100%;
 	color:#c0c0c0;
 }
 
+.input{
+	height:12vh;
+	margin: 3vh 0;
+}
+
 input{
 	width: 95%;
-	padding:2% 5px;
-	border:1px solid #c4c4c4;
+	height: 12vh;
+	border:0.1vh solid #c4c4c4;
 	font-size:20px;
-	height: 70%;
+
 
 }
 
 input[type=submit]{
 	margin: 5% 17%;
 	width:65%;
-	height: 15%;
+	height: 12vh;
 	background-color: #3d3f78;
 	border: 0;
 	font-size: 200%;
@@ -213,24 +218,9 @@ footer p{
 	width: 100%;
 }
 
-.center div{
-	margin: auto auto;
-}
-
-
-form .input{
-	margin-top:14px;
-	height: 15%;
-}
-
-.form{
-	height:135vh;
-}
-
 .formulario{
-	height:80vh;
-	width:90%;
-	position: static;
+	width: 90vw;
+	margin: 0 5vw;
 }
 
 .center .lista{
