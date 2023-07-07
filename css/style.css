@@ -54,13 +54,14 @@ overflow-x: hidden;
 	background-color: rgb(255, 255, 255);
 	width:30vw;
 	height:83vh;
-	border: 10px solid  rgb(167, 167, 167);
+	border: 2vw solid  rgb(167, 167, 167);
 	position: relative;
 	padding: 10px;	
 	top: -2%;
 	right: 2%;
 	margin:0 auto;
 	color: #a5a5a5;
+	box-shadow: 0.4vh 1vh 0.6vh white;
 }
 
 
@@ -182,6 +183,7 @@ height:100%;
 	text-align: center;
 	display: inline-block;
 	margin-top: 10%;
+
 	
 }
 .icones img,.icones h3{	
@@ -203,10 +205,11 @@ height:100%;
 
 footer{
 	text-align: center;
-	height: 92px;
+	height: 9vh;
+	margin-top:2vh;
 }
 footer p{
-	margin-top: 10px;
+	margin-top: 1vh;
 	font-size: 20px;
 	color: #5a5a5a;
 }
@@ -220,14 +223,15 @@ footer p{
 }
 
 .formulario{
-	width: 90vw;
+	width: 85vw;
 	margin: 0 5vw;
-	font-size: 3vh;
+	font-size: 4vw;
 }
 
 .formulario input{
-	width: 87vw;
+	width: 82vw;
 	margin: auto auto;
+
 }
 
 .center .lista{
@@ -242,7 +246,7 @@ footer p{
 .section-for-text .conteudo{
 	width:80%;
 	margin: 5% 10%;
-	font-size:1.5vw;
+	font-size:1.5vh;
 }
 .icones{
 	width:80%;
