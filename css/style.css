@@ -52,9 +52,9 @@ overflow-x: hidden;
 .formulario{
 	display: block;
 	background-color: rgb(255, 255, 255);
-	width:60%;
-	height:82vh;
-	border: 10px solid  rgb(247, 167, 167);
+	width:30vw;
+	height:83vh;
+	border: 10px solid  rgb(167, 167, 167);
 	position: relative;
 	padding: 10px;	
 	top: -2%;
@@ -104,18 +104,19 @@ div .input,form p,.lista{
 }
 
 input{
-	width: 95%;
-	height: 12vh;
+	width: 28vw;
+	height: 9vh;
 	border:0.1vh solid #c4c4c4;
 	font-size:20px;
+	padding: 1vw;
 
 
 }
 
 input[type=submit]{
 	margin: 5% 17%;
-	width:65%;
-	height: 12vh;
+	width:20vw;
+	height: 11vh;
 	background-color: #3d3f78;
 	border: 0;
 	font-size: 200%;
@@ -221,27 +222,27 @@ footer p{
 .formulario{
 	width: 90vw;
 	margin: 0 5vw;
+	font-size: 3vh;
+}
+
+.formulario input{
+	width: 87vw;
+	margin: auto auto;
 }
 
 .center .lista{
 	height:30vh;
 	width:90%;
     margin:2% auto;
-	font-size:120%;
-	
-}
+	font-size:120%;}
 
 .header .center{
-margin: 0 39%;
-width:22%;
-}
-
+	margin: 0 39%;}
+	
 .section-for-text .conteudo{
-
 	width:80%;
 	margin: 5% 10%;
 	font-size:1.5vw;
-
 }
 .icones{
 	width:80%;
