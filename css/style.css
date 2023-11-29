@@ -149,7 +149,7 @@ height:auto;
 }
 
 .section-for-text h2{
-	font-size: 40px;
+	font-size: 2vw;
 	
 	
 }
@@ -241,6 +241,7 @@ nav .center img{height:4vw;width:auto;}
 .arrow{top: -3vw;left: 48vw}
 
 .section-for-icones{height: auto;}
+.section-for-icones h2{font-size:2vw;}
 .section-for-icones .icones{display: block;width: 70%;margin:10% 15%;}
 
 
