@@ -129,7 +129,7 @@ input[type=text]:valid,input[type=email]:valid {
 
 background-color:rgba(61 ,63 ,120, 0.6)}
 .section-for-text{
-	height: 400px;
+	height: auto;
 	background-color: #cccccc;
 	color:#6d6d6d;
 	
