@@ -13,20 +13,19 @@ overflow-x: hidden;
 	font-family: "font1";
 	font-weight: 400;
 }
-.header .center{
+nav .center{
 	
 	height: 85px;
 	width:12%;
 	height:15%;
 	margin: auto auto;
 }
-.header .center img{
+nav .center img{
 	margin: 30px auto;
 	float: left;
-	height:21px;
-	width:100%;
+	height:2vw;
 }
-.header{
+nav{
 	width:100%;
 	height: 85px;
 	background-color:#24244c;
@@ -37,11 +36,15 @@ overflow-x: hidden;
 .form{
 	background-image:url(../images/header_bg.png);
 	width: 100%;
-	height:100%;
+	height:40vw;
 	background-color: #24244c;
 	background-position:center;
 	background-size: 100% 100%;
 	position: relative;
+}
+
+.form h2{
+	font-size: 2vw
 }
 
 .center{
@@ -53,15 +56,13 @@ overflow-x: hidden;
 	display: block;
 	background-color: rgb(255, 255, 255);
 	width:30vw;
-	height:83vh;
-	border: 2vw solid  rgb(167, 167, 167);
-	position: relative;
-	padding: 10px;	
-	top: -2%;
-	right: 2%;
-	margin:0 auto;
+	height:auto;
+	border: 1vw solid  rgb(167, 167, 167);
+	padding:1vw;
+	padding-left: 2vw;
 	color: #a5a5a5;
-	box-shadow: 0.4vh 1vh 0.6vh white;
+	margin-top: -1vw;
+	box-shadow: 0px 2px 5px rgba(50,50,50,0.5);
 }
 
 
@@ -89,39 +90,40 @@ overflow-x: hidden;
 	width: 95%;
 	height: 90%;
 	display: inline-block;
-	font-size: 100%;
+	font-size: 1vw;
 	
 }
 
 div .input,form p,.lista{
-	margin-top: 5vh;
-	font-size: 100%;
+	margin-top: 5%;
+	font-size: 1.5vw;
 	color:#c0c0c0;
 }
 
-.input{
-	height:12vh;
-	margin: 3vh 0;
+div .input{
+	
+	margin: 1vw 0;
+	font-size: 1.5vw;
 }
 
 input{
 	width: 28vw;
-	height: 9vh;
+	height: 4vw;
 	border:0.1vh solid #c4c4c4;
 	font-size:20px;
-	padding: 1vw;
-
+	
 
 }
 
 input[type=submit]{
 	margin: 5% 17%;
 	width:20vw;
-	height: 11vh;
+	height: 3.5vw;
 	background-color: #3d3f78;
 	border: 0;
-	font-size: 200%;
+	font-size: 1.5vw;
 	color:#ffffff;
+	padding: 0;
 }
 input[type=text]:valid,input[type=email]:valid {
 
@@ -135,13 +137,13 @@ background-color:rgba(61 ,63 ,120, 0.6)}
 }
 
 .section-for-text .conteudo{
-height:100%;
+height:auto;
 }
 
 .section-for-text p{
 	width: 100%;
 	text-align: justify;
-	font-size: 130%;
+	font-size: 1.6vw;
 
 
 }
@@ -155,7 +157,7 @@ height:100%;
 	display: inline-block;
 	text-align: center;
 	width: 60%;
-	margin: auto 25%;
+	margin: auto 20%;
 
 }
 .arrow{
@@ -214,46 +216,36 @@ footer p{
 	color: #5a5a5a;
 }
 
-@media screen and (max-width:1080px){
+@media screen and (max-width:600px){
 
 
-.center{
-	display: inline-block; 
-	width: 100%;
-}
+nav{height: 10vw;padding-bottom:4vw}
+nav .center{margin: 0 35vw;}
+nav .center img{height:4vw;width:auto;}
 
-.formulario{
-	width: 85vw;
-	margin: 0 5vw;
-	font-size: 4vw;
-}
+.form{padding:5vw 0;height: auto}
+.form .center{display:block;}
+.form .center .lista{width:80vw;margin:0 10vw 5vw 10vw;}
+.form .center .lista ul{font-size: 2vw;}
 
-.formulario input{
-	width: 82vw;
-	margin: auto auto;
+.form 	.center .formulario{width:72vw;margin-left: 12vw;height:auto;box-shadow: none;}
+.form .center .formulario input{display:block;width:100%;margin:1% 8%;margin-left:0;padding:3vw 0vw;}
+.form .center .formulario input[type=submit]{display:block;width:60%;margin-left: 20%;font-size: 4.5vw;padding-bottom:8vw;text-align: center}
+.form .center .formulario .input{width:90%;margin:8% 0;margin-left:3%;font-size: 4vw;}
 
-}
+.form h2{font-size: 4vw}
+.form .center .formulario p{font-size: 3vw;margin: 5% 0;}
 
-.center .lista{
-	height:30vh;
-	width:90%;
-    margin:2% auto;
-	font-size:120%;}
+.section-for-text{height: auto;padding: 5vw 0;}
+.section-for-text .conteudo{width: 90vw;margin:0 5vw;font-size: 2.5vw}
+.arrow{top: -3vw;left: 48vw}
 
-.header .center{
-	margin: 0 39%;}
-	
-.section-for-text .conteudo{
-	width:80%;
-	margin: 5% 10%;
-	font-size:1.5vh;
-}
-.icones{
-	width:80%;
-	margin: 0 10%; 
-	text-align: center;
-	float: left;
-	margin-top: 10%;
+.section-for-icones{height: auto;}
+.section-for-icones .icones{display: block;width: 70%;margin:10% 15%;}
 
-}
+
+footer{text-align: center;height: 9vh;margin-top:2vh;}
+footer p{margin-top: 1vh;font-size: 2.5vw;color: #5a5a5a;}
+
+
 }
