@@ -193,11 +193,12 @@ height:auto;
 .icones img,.icones h3{	
 	margin-bottom: 5%;
 	color: #5a5a5a;
+	font-size:2.4vw;
 	
 }
 
 .section-for-icones p{
-	font-size: 100%;
+	font-size: 1.5vw;
 	color:#5a5a5a;
 }
 
