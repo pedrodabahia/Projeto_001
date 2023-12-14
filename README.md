@@ -20,9 +20,8 @@ Mas o mesmo esta funcionando se for posto para teste de design.**
 ## :framed_picture: Screenshots
 
 <p float="left">
-  <img src="./screen/desktop.png">
-  <img  height="440" src="./screen/mobile.png">
-  <img height="440" width="755" src="./screen/notebook.png">
+  <img src="./screen/componernte1.png">
+
 </p>
 
 
