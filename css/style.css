@@ -7,7 +7,6 @@
 }
 body{
 overflow-x: hidden;
-background-color: #24244c;
 }
 @font-face{
 	src: url(../fonts/Oswald-VariableFont_wght.ttf);
@@ -16,95 +15,33 @@ background-color: #24244c;
 }
 .header .center{
 	
-	height: 6vw;
-	width:15vw;
-	height:3vw;
-	margin: auto 4vw;
+	height: 85px;
+	width:12%;
+	height:15%;
+	margin: auto auto;
 }
-.header .center .logo{
-	background-image: url('../images/logo.png');
-	background-size: 9.56vw 1.8vw ;
-	background-position: center;
-	background-repeat: no-repeat;
-	height:100%;
+.header .center img{
+	margin: 30px auto;
+	float: left;
+	height:21px;
 	width:100%;
-	margin-top: 0.7vw;
 }
 .header{
 	width:100%;
-	height:5vw;
-	background-color:rgba(36, 36, 76, 0.7);
-	backdrop-filter: blur(14px);
-	position: fixed;
-	top: 0;
-	left: 0;
+	height: 85px;
+	background-color:#24244c;
 }
 
-.header .links{
-	color: white;	
-	float: right;
-	width: 22vw;
-	margin-right: 4vw;
-}
-.header .links ul{
-	width: auto;
-	text-align: right;
-	margin-top: -1.7vw;
-	background-color: grey;
-}
-.header .links ul li{
-	float: left;
-	list-style: none;
-	margin: 0 1vw;
-	font-size: 1.5vw;	
-	padding: 0.2vw 0.5vw;
-	transition: 1s;
-	user-select: none;
-	
-}
 
-.header .links .nav-mobile{
-	margin-top: -14vw;
-	float: right;
-	display: none;
-}
-.header .links .nav-mobile ul{
-	display: none;
-	background-color:rgba(36, 36, 76, 0.7);
-	backdrop-filter: blur(14px);
-	height: 102vh;
-	width: 50vw;
-	position:fixed;
-	right: -5vw;
-	top: 16vw;
-}
-.header .links .nav-mobile ul li{
-	width: 90%;
-	text-align: center;
-	font-size: 5vw;
-	margin-top: 5vw;
-
-}
-
-.header .links i{
-	font-size: 10vw;
-	position: relative;
-	right: 0vw;
-}
-
-.header .links ul li:hover{
-	text-shadow: 0px 0px 10px rgb(255, 255, 255) ;
-	transition: 2s;
-}
 
 .form{
 	background-image:url(../images/header_bg.png);
 	width: 100%;
-	height:auto;
-	margin-top: 5.0vw;
+	height:100%;
 	background-color: #24244c;
 	background-position:center;
 	background-size: 100% 100%;
+	position: relative;
 }
 
 .center{
@@ -112,40 +49,54 @@ background-color: #24244c;
 	display: flex;
 }
 
-.text{
-	display:block;
-	margin: 5% 10%;
-	width: 40%;
-	height:auto;
-}
-.text .center{
-	display: block;
-}
-
-.text .center h1{
-	font-size: 4vw;
-}
-
-.text .center h1,.text .center p{
-	display: block;
-	color: white;
-}
-
 .formulario{
 	display: block;
 	background-color: rgb(255, 255, 255);
-	width:25vw;
-	height:81vh;
-	border: 1vw solid  rgb(167, 167, 167);
+	width:30vw;
+	height:83vh;
+	border: 2vw solid  rgb(167, 167, 167);
+	position: relative;
 	padding: 10px;	
-	margin:0.5vw auto;
-	color: #24244c;
+	top: -2%;
+	right: 2%;
+	margin:0 auto;
+	color: #a5a5a5;
+	box-shadow: 0.4vh 1vh 0.6vh white;
 }
 
-div .input,form p{
-	margin-top: 2.3vw;
-	font-size: 1.3vw;
-	color:#24244c;
+
+
+.lista{
+	display:block;
+	margin: 5% 10%;
+	width: 40%;
+	height:40%;
+	background-color: rgba(35,35,67,0.8);
+}
+
+.lista li{
+	padding-top: 2%;
+	padding-left: 2%;
+	list-style: none;
+	text-align:center;
+	line-height: 200%;
+}
+
+.lista .center{
+	text-align: center;
+}
+.lista ul{
+	width: 95%;
+	height: 90%;
+	display: inline-block;
+	font-size: 100%;
+	
+}
+
+div .input,form p,.lista{
+	margin-top: 5vh;
+	font-size: 100%;
+	color:#c0c0c0;
 }
 
 .input{
@@ -154,9 +105,9 @@ div .input,form p{
 }
 
 input{
-	width: 22vw;
-	height: 5vh;
-	border:0.3vh solid #24244c;
+	width: 28vw;
+	height: 9vh;
+	border:0.1vh solid #c4c4c4;
 	font-size:20px;
 	padding: 1vw;
 
@@ -164,14 +115,13 @@ input{
 }
 
 input[type=submit]{
-	margin: 5% 2.5vw;
+	margin: 5% 17%;
 	width:20vw;
-	height: 4vw;
-	background-color: #24244c;
+	height: 11vh;
+	background-color: #3d3f78;
 	border: 0;
 	font-size: 200%;
 	color:#ffffff;
-	padding: 0;
 }
 input[type=text]:valid,input[type=email]:valid {
 
@@ -184,6 +134,9 @@ background-color:rgba(61 ,63 ,120, 0.6)}
 	
 }
 
+.section-for-text .conteudo{
+height:100%;
+}
 
 .section-for-text p{
 	width: 100%;
@@ -202,9 +155,7 @@ background-color:rgba(61 ,63 ,120, 0.6)}
 	display: inline-block;
 	text-align: center;
 	width: 60%;
-	margin: auto 20%;
-	margin-top: 1vw;
-	color: #24244c;
+	margin: auto 25%;
 
 }
 .arrow{
@@ -212,9 +163,9 @@ background-color:rgba(61 ,63 ,120, 0.6)}
 	width: 4.8%;
 	background-size:100% 100%;
 	height: 4.7vw;
-	position: absolute;
-	left:45.2%;
-	top:70vw;
+	position: relative;
+	left:50%;
+	top:-32px;
 	margin: 0px;
 	overflow: hidden;
 }
@@ -222,125 +173,72 @@ background-color:rgba(61 ,63 ,120, 0.6)}
 
 .section-for-icones{
 	text-align: center;
-	height: auto;
-	margin: 0;
+	height: 700px;
 	width: 100%;
-	padding-bottom:8vw;
-	background-color: white;
 }
 
 .icones{
-	width: 25%;
+	width: 30%;
 	margin: 0 1.5%;
 	text-align: center;
 	display: inline-block;
 	margin-top: 10%;
-	background-color: rgb(200, 200, 200);
-	padding: 6vw 1vw;
-	color: #24244c;
-	border: 1vw solid #24244c;
-	box-shadow: 0 8px 10px black;
 
 	
 }
-.section-for-icones .superior{
-	padding: 7vw 1vw;
-}
 .icones img,.icones h3{	
-	margin-bottom: 5%;	
+	margin-bottom: 5%;
+	color: #5a5a5a;
+	
 }
 
 .section-for-icones p{
 	font-size: 100%;
+	color:#5a5a5a;
 }
 
 .section-for-icones h2{ 
-	padding-top: 5vw;
 	margin-top: 2%;
-	font-size: 2.6vw;
+	font-size: 30px;
 	color:rgb(35, 35, 67)
 }
-.rodapé{
-	height: auto;
-}
+
 footer{
 	text-align: center;
 	height: 9vh;
-	margin-top:0;
-	background-color: #24244c;
-	padding: 1.5vw 0;
+	margin-top:2vh;
 }
 footer p{
 	margin-top: 1vh;
 	font-size: 20px;
-	color:white
+	color: #5a5a5a;
 }
 
 @media screen and (max-width:1080px){
-	
+
+
 .center{
 	display: inline-block; 
 	width: 100%;
 }
 
-.header{
-	width:100%;
-	height:15vw;
-}
-.header .center .logo{
-	height:100%;
-	width:100%;
-	margin-top: 0.7vw;
-	background-size: 100%;
-}
-
-.header .links{
-	color: white;	
-	float: right;
-	width: 22vw;
-	margin-right: 6vw;
-}
-.header .links ul{
-display: none;}
-
-.header .links .nav-mobile{
-	display: block;
-}
-.form{
-	margin-top: 15vw;
-}
-
 .formulario{
 	width: 85vw;
-	margin: 15vw 5vw;
-	height: auto;
+	margin: 0 5vw;
 	font-size: 4vw;
 }
 
 .formulario input{
 	width: 82vw;
-	margin: 0 auto;
-}
-div .input,form p{
-	margin: 4vw 0;
-	font-size: 4vw;
-}
-
-.formulario input[type=submit]{
-	width: 82vw;
-	padding: 3vw 0vw 10vw 0vw;
-	font-size: 5vw;
 	margin: auto auto;
+
 }
 
-.text{
-	display:block;
-	width: 90%;
-}
-
-.text .center h1{
-	font-size: 10vw;
-}
+.center .lista{
+	height:30vh;
+	width:90%;
+    margin:2% auto;
+	font-size:120%;}
 
 .header .center{
 	margin: 0 39%;}
@@ -356,14 +254,6 @@ div .input,form p{
 	text-align: center;
 	float: left;
 	margin-top: 10%;
-
-}
-.header .center{
-	display: block;
-	height: 6vw;
-	width:30vw;
-	height:18vw;
-	margin: -2vw 6vw 0 6vw;
 
 }
 }
