@@ -20,7 +20,7 @@ Mas o mesmo esta funcionando se for posto para teste de design.**
 ## :framed_picture: Screenshots
 
 <p float="left">
-  <img src="./screen/componernte1.png">
+  <img src="./screen/Component 1.png">
 
 </p>
 
