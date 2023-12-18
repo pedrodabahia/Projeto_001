@@ -70,7 +70,7 @@ background-color: #24244c;
 }
 .header .links .nav-mobile ul{
 	display: none;
-	background-color:rgba(36, 36, 76, 0.7);
+	background-color:rgba(36, 36, 76, 1);
 	backdrop-filter: blur(14px);
 	height: 102vh;
 	width: 50vw;
